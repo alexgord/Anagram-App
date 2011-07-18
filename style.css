@@ -1,0 +1,32 @@
+body
+{
+	background-color: firebrick;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.96, rgb(135,100,98)),
+    color-stop(0, rgb(59,9,9))
+);
+background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(135,100,98) 96%,
+    rgb(59,9,9) 0%
+);
+}
+#anagram-div
+{
+	background-color: #700000;
+	height: 300;
+	width: 1500;
+	font-size: 80;
+	text-align: center;
+	border-style: solid;
+	border-width : 2px;
+}
+
+div.letter
+{
+	height : 30;
+	width : 30;
+}
